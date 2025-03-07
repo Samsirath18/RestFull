@@ -1,0 +1,22 @@
+{
+  "name": "serveur-node",
+  "version": "1.0.0",
+  "description": "serveur http pour API Rest",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server",
+    "http",
+    "API",
+    "Rest"
+  ],
+  "author": "Samsirath",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
